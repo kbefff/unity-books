@@ -9,8 +9,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "build": "echo \"BUILD OK\" && exit 1",
+    "prebuid": "npm run test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   }
 }
