@@ -37,7 +37,8 @@ class Navigation extends React.Component {
                                 {/* Change from a to Link */}
                                 <li><Link to="/components/Home.js">Home</Link></li>
                                 <li><Link to="/components/About.js">About</Link></li>
-                                <li><Link to="/components/Navigation.js">Navigation</Link></li>
+                                <li><Link to="/components/Books.js">Books</Link></li>
+                                <li><Link to="/components/Contact.js">Contact</Link></li>
                             </ul>
                         </div>
                     </div>

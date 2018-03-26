@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Navigation from './components/Navigation.js';
+import Books from './components/Books.js';
+import Contact from './components/Contact.js';
 
 
 
@@ -48,17 +50,10 @@ const App = () => (
   <Router>
     
     <div>
-      {/* <ul>
-        <li><Link to="/components/Home.js">Home</Link></li>
-        <li><Link to="/components/About.js">About</Link></li>
-        <li><Link to="/components/Navigation.js">Navigation</Link></li>
-      </ul>
-
-      <hr/> */}
-
       <Route exact path="/components/Home.js" component={Home}/>
       <Route exact path="/components/About.js" component={About}/>
-      <Route exact path="/components/Navigation.js" component={Navigation}/>
+      <Route exact path="/components/Books.js" component={Books}/>
+      <Route exact path="/components/Contact.js" component={Contact}/>
     </div>
   </Router>
 )

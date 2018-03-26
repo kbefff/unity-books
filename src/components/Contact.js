@@ -7,7 +7,9 @@ import Navigation from './Navigation.js';
 const Contact = () => (
     <div>
       <Navigation />
-      <h2>TEST</h2>
+      <h2>Contact</h2>
+        <p>Find us at Facebook: UnityonUnionBooks </p>
+        <p>Contact us at: stayclean2420@yahoo.com</p>
     </div>
   )
 

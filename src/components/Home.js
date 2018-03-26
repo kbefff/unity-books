@@ -7,7 +7,7 @@ import Navigation from './Navigation.js';
 const Home = () => (
     <div>
       <Navigation />
-      <h2>TEST</h2>
+      <h2>Unity Books</h2>
     </div>
   )
 
