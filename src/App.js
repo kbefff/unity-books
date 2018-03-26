@@ -48,13 +48,13 @@ const App = () => (
   <Router>
     
     <div>
-      <ul>
+      {/* <ul>
         <li><Link to="/components/Home.js">Home</Link></li>
         <li><Link to="/components/About.js">About</Link></li>
         <li><Link to="/components/Navigation.js">Navigation</Link></li>
       </ul>
 
-      <hr/>
+      <hr/> */}
 
       <Route exact path="/components/Home.js" component={Home}/>
       <Route exact path="/components/About.js" component={About}/>
