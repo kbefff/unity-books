@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './Books.css';
 
 const Books = () => (
-    <div>
+    <div  className="container">
  
       <h2>Books</h2>
-
-        <div className="container">
+<br />
+        <div>
           <div className="item item1">1</div>
           <div className="item item2">2</div>
           <div className="item item3">3</div>
