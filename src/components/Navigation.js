@@ -7,24 +7,6 @@ class Navigation extends React.Component {
     
     render() {
         return (
-           
-            // <Navbar>
-            //   <Navbar.Header>
-            //     <Navbar.Brand>
-            //       <a href="#home">Unity Books</a>
-            //     </Navbar.Brand>
-            //     <Navbar.Toggle />
-            //   </Navbar.Header>
-            //   <Navbar.Collapse>
-            //     <Navbar.Form pullLeft>
-            //       <FormGroup>
-            //         <FormControl type="text" placeholder="Search" />
-            //       </FormGroup>{' '}
-            //       <Button type="submit">Submit</Button>
-            //     </Navbar.Form>
-            //   </Navbar.Collapse>
-            // </Navbar>
-
 
             <div>
                 <nav className="navbar navbar-default">
@@ -37,7 +19,7 @@ class Navigation extends React.Component {
                                 {/* Change from a to Link */}
                                 <li><Link to="/components/Home.js">Home</Link></li>
                                 <li><Link to="/components/About.js">About</Link></li>
-                                <li><Link to="/components/Books.js">Books</Link></li>
+                                <li><Link to="/components/books/Books.js">Books</Link></li>
                                 <li><Link to="/components/Contact.js">Contact</Link></li>
                             </ul>
                         </div>

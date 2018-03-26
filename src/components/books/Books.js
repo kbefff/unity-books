@@ -1,13 +1,21 @@
 
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import Navigation from './Navigation.js';
-
+import './Books.css';
 
 const Books = () => (
     <div>
-      <Navigation />
+ 
       <h2>Books</h2>
+
+        <div className="container">
+          <div className="item item1">1</div>
+          <div className="item item2">2</div>
+          <div className="item item3">3</div>
+          <div className="item item4">4</div>
+          <div className="item item5">5</div>
+          <div className="item item5">6</div>
+        </div>
 
         <h4>Alcoholics Anonymous</h4>
           <li>Big Book</li>
