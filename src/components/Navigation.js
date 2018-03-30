@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { FormGroup, FormControl, Button, Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import Cart from '../containers/Cart';
+
 
 class Navigation extends React.Component {
 
@@ -21,6 +23,7 @@ class Navigation extends React.Component {
                                 <li><Link to="/components/About.js">About</Link></li>
                                 <li><Link to="/components/books/Books.js">Books</Link></li>
                                 <li><Link to="/components/Contact.js">Contact</Link></li>
+                                <li><Cart /></li>
                             </ul>
                         </div>
                     </div>

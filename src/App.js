@@ -7,6 +7,8 @@ import About from './components/About.js';
 import Navigation from './components/Navigation.js';
 import Books from './components/books/Books.js';
 import Contact from './components/Contact.js';
+import Cart from './containers/Cart';
+import ProductList from './containers/ProductList';
 
 
 
@@ -18,6 +20,14 @@ const App = () => (
     <div>
       <Navigation />
       <div className="container">
+        {/* <div className="row">
+            <div className="col-md-8">
+                <ProductList />
+            </div>
+            <div className="col-md-4">
+                <Cart />
+            </div>
+        </div> */}
         <Route exact path="/components/Home.js" component={Home}/>
         <Route exact path="/components/About.js" component={About}/>
         <Route exact path="/components/books/Books.js" component={Books}/>
